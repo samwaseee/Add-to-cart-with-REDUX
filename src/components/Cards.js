@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button, Card } from 'react-bootstrap'
 import Cardsdata from './CardData';
 import './style.css';
@@ -7,7 +7,7 @@ import { ADD } from '../redux/actions/action';
 
 const Cards = () => {
 
-  const [data, setData] = useState(Cardsdata);
+  const data = Cardsdata;
   // console.log(data);
 
 
